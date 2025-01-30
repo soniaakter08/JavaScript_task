@@ -6,9 +6,9 @@
   - [x] variables
 - **week_02:**
   - [x] basic_functions
-  - [ ] numbers
-  - [ ] strings
-  - [ ] conditions
+  - [x] numbers
+  - [x] strings
+  - [x] conditions
 - **week_03:**
   - [x] github
   - [ ] loops
