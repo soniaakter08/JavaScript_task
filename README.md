@@ -11,5 +11,9 @@
   - [x] conditions
 - **week_03:**
   - [x] github
-  - [ ] loops
+  - [x] loops
   - [ ] 8_ball
+  - **week_04:**
+  - [x] ATM_simulation
+  - [x] Basic_DOM
+  - [x] Pan_Cake_Maker
