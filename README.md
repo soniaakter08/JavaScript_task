@@ -17,13 +17,13 @@
   - [x] ATM_simulation
   - [x] Basic_DOM
   - [x] Pan_Cake_Maker
-  - **week_05:**
+- **week_05:**
   - [x] Array
   - [x] PanCake_Maker_02
-  - **week_06:**
+- **week_06:**
   - [x] object
   - [ ] Little_Zoo_Project
-  - **week_07:**
+- **week_07:**
   - [x] JSON
   - [x] Local_storage
   - [ ] PanCake_Maker_03
