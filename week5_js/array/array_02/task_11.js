@@ -6,3 +6,6 @@ Sort the safariAnimals array in alphabetical order.
 Expected outcome: ['Elephant', 'Gazelle', 'Leopard', 'Zebra']
 */
 // Write your code here
+
+safariAnimals.sort();
+console.log(safariAnimals);

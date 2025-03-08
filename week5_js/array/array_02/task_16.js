@@ -7,3 +7,6 @@ Merge forestAnimals and farmAnimals into a new array.
 Expected outcome: ['Deer', 'Bear', 'Wolf', 'Cow', 'Sheep', 'Goat']
 */
 // Write your code here
+
+const margeAnimal = forestAnimals.concat(farmAnimals);
+console.log(margeAnimal);

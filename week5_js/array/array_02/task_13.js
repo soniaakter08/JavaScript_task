@@ -6,3 +6,7 @@ true (if the array contains "Tiger")
 false (if it does not)
 */
 // Write your code here
+
+let zooAnimals = ["Elephant", "Giraffe", "Panda", "Fox", "Kangaroo"];
+const hasTiger = zooAnimals.includes("Tiger");
+console.log(hasTiger);

@@ -9,3 +9,10 @@ Expected outcome:
 "Common species: Bear"
 */
 // Write your code here
+
+const commonSpecies = reserve1Animals.filter((animal) =>
+  reserve2Animals.includes(animal)
+);
+commonSpecies.forEach((species) =>
+  console.log(`common species are:${species}`)
+);

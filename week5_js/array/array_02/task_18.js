@@ -6,3 +6,7 @@ Use splice to remove "30" and replace it with "25" and "27".
 Expected outcome: [10, 20, 25, 27, 40, 50]
 */
 // Write your code here
+
+numbers.splice(2, 1, 25, 27); //at index 2 ,remove 1 item (30) and add 25 and 27
+
+console.log(numbers);

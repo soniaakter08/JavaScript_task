@@ -6,3 +6,6 @@ Find and store the index of "Fox" in the zooAnimals array.
 Expected outcome: "Index of Fox: 3"
 */
 // Write your code here
+
+const foxIndex = zooAnimals.indexOf("Fox");
+console.log(`Index of Fox is:${foxIndex}`);

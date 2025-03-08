@@ -9,3 +9,7 @@ Expected outcome:
 "Letters in 'Panda': P, a, n, d, a"
 */
 // Write your code here
+
+animalNames.forEach((name) => {
+  console.log(`Letters in "${name}":${name.split("").join(",")}`);
+});

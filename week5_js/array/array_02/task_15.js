@@ -4,3 +4,7 @@ Create a new array where every name in attendees is written in uppercase.
 Expected outcome: ['JOHN', 'SARAH', 'JOHN', 'ALEX', 'JOHN']
 */
 // Write your code here
+
+let attendees = ["John", "Sarah", "John", "Alex", "John"];
+const uppercaseName = attendees.map((name) => name.toUpperCase());
+console.log(uppercaseName);

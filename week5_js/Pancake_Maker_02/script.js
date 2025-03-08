@@ -50,7 +50,11 @@ const orderSummary = () => {
       extra.push(extraResult);
     }
   }
-  summary.textContent = `Name: ${customerName.value}, Pancake Type: ${pancakeType.selectedOptions[0].textContent}, Selected Toppings: ${topping}, Added extra item : ${extra}, selected delivery: ${deliveryMethod.parentElement.textContent}`;
+  const toppingMessage =
+    topping.length > 0 ? topping.join(",") : "No toppings selected";
+  const extraMessage =
+    extra.length > 0 ? extra.join(",") : "No extras selected";
+  summary.textContent = `Name: ${customerName.value}, Pancake Type: ${pancakeType.selectedOptions[0].textContent}, Selected Toppings: ${toppingMessage}, Added extra item : ${extraMessage}, selected delivery: ${deliveryMethod.parentElement.textContent}`;
 };
 
 orderButton.addEventListener("click", orderSummary);

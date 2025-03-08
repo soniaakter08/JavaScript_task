@@ -7,3 +7,8 @@ containing only temperatures greater than 0 from the temperatures array.
 Expected outcome: [5, 15, 20, 2]
 */
 // Write your function here
+
+function getPositiveTemperatures(temperatureArray) {
+  return temperatureArray.filter((temperature) => temperature > 0);
+}
+console.log(getPositiveTemperatures(temperatures));
