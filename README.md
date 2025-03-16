@@ -13,7 +13,7 @@
   - [x] github
   - [x] loops
   - [ ] 8_ball
-  - **week_04:**
+- **week_04:**
   - [x] ATM_simulation
   - [x] Basic_DOM
   - [x] Pan_Cake_Maker
@@ -22,8 +22,12 @@
   - [x] PanCake_Maker_02
 - **week_06:**
   - [x] object
-  - [ ] Little_Zoo_Project
+  - [x] Little_Zoo_Project
 - **week_07:**
   - [x] JSON
   - [x] Local_storage
   - [ ] PanCake_Maker_03
+- **week_08:**
+  - [ ] error_handling_js
+  - [x] fault_finding_js
+  - [x] js_writting_practices
