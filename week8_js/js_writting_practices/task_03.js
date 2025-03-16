@@ -10,6 +10,9 @@ Expected:
 - Console logs: { name: "Alice", email: "alice@example.com", isAdmin: true }
 */
 
-function task3() {
-  // Code here
-}
+const userProfile = {
+  name: "Alice",
+  email: "alice@example.com",
+  isAdmin: true,
+};
+console.log(userProfile);
