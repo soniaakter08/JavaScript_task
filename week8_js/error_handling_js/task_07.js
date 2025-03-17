@@ -8,5 +8,11 @@ checkProperty({ name: "Bob", age: 30 }, "email"); // Should log "Property not fo
 */
 
 function checkProperty(obj, key) {
-  // Your code here
+  if (obj.hasOwnProperty(key)) {
+    console.log(obj[key]);
+  } else {
+    console.log("Property not found");
+  }
 }
+checkProperty({ name: "Bob", age: 30 }, "name");
+checkProperty({ name: "Bob", age: 30 }, "email");

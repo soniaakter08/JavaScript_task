@@ -7,5 +7,11 @@ clearStorage(); // Should log "LocalStorage cleared."
 */
 
 function clearStorage() {
-  // Your code here
+  try {
+    localStorage.clear();
+    console.log("Local storage cleared");
+  } catch (error) {
+    console.log("Error clearing Message:", error.message);
+  }
 }
+clearStorage();
