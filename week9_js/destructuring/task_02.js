@@ -5,6 +5,6 @@ Extract the first two colors from the colors array.
 const colors = ["red", "blue", "green", "yellow"];
 
 // Fix this
-const [primary, secondary] = colors;
+const [primary, secondary, third] = colors;
 
-console.log(primary, secondary); // Expected: "red blue"
+console.log(primary, secondary, third); // Expected: "red blue"

@@ -12,7 +12,7 @@
 - **week_03:**
   - [x] github
   - [x] loops
-  - [ ] 8_ball
+  - [x] 8_ball
 - **week_04:**
   - [x] ATM_simulation
   - [x] Basic_DOM
@@ -26,8 +26,13 @@
 - **week_07:**
   - [x] JSON
   - [x] Local_storage
-  - [ ] PanCake_Maker_03
+  - [x] PanCake_Maker_03
 - **week_08:**
-  - [ ] error_handling_js
+  - [x] error_handling_js
   - [x] fault_finding_js
   - [x] js_writting_practices
+- **week_09:**
+  - [x] async_js
+  - [x] chaining_js
+  - [x] destructuring
+  - [x] spread_rest

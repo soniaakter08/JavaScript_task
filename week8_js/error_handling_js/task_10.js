@@ -8,10 +8,15 @@ clearStorage(); // Should log "LocalStorage cleared."
 
 function clearStorage() {
   try {
-    localStorage.clear();
-    console.log("Local storage cleared");
+    if (typeof localStorage !== "undefined") {
+      localStorage.clear();
+      console.log("LocalStorage cleared.");
+    } else {
+      console.error("LocalStorage is not available.");
+    }
   } catch (error) {
-    console.log("Error clearing Message:", error.message);
+    console.error("Error clearing storage:", error.message);
   }
 }
+
 clearStorage();

@@ -8,5 +8,17 @@ task9("%"); // Should log URIError
 */
 
 function task9(malformedURI) {
-  // Your code here
+  try {
+    const decodedURI = decodeURIComponent(malformedURI);
+    console.log(decodedURI);
+  } catch (error) {
+    if (error instanceof URIError) {
+      console.error("URI Error:", error.message);
+    } else {
+      console.error("Unexpected Error:", error.message);
+    }
+  }
 }
+
+task9("https%3A%2F%2Fexample.com");
+task9("%");

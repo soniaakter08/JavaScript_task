@@ -20,9 +20,14 @@ const userProfile = {
 };
 
 localStorage.setItem("userProfile", JSON.stringify(userProfile));
-const storedProfile = JSON.parse(localStorage.getItem("userprofile") || "{}");
+const returnedProfile = localStorage.getItem("userProfile");
+const objectProfile = JSON.parse(returnedProfile);
+objectProfile.preferences.theme = "dark";
+console.log(objectProfile);
 
-storedProfile.preferences.theme = "dark mode";
+// const storedProfile = JSON.parse(localStorage.getItem("userprofile"));
 
-localStorage.setItem("userProfile", JSON.stringify(storedProfile));
-console.log(storedProfile);
+// storedProfile.preferences.theme = "dark mode";
+
+// //localStorage.setItem("userProfile", JSON.stringify(storedProfile));
+// console.log(storedProfile);
